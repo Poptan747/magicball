@@ -54,6 +54,6 @@ class _BallState extends State<Ball> {
 
 void randomize(){
   ballNumber = Random().nextInt(5)+1;
-  print('Randomize Number - $ballNumber ');
+  print('Randomize Number - $ballNumber ' );
 }
 
